@@ -1,0 +1,37 @@
+\begin{table}
+\centering
+\begin{tblr}[         %% tabularray outer open
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]},
+column{1}={halign=l,},
+column{2}={halign=c,},
+column{3}={halign=c,},
+column{4}={halign=c,},
+hline{16}={1,2,3,4}{solid, 0.05em, black},
+}                     %% tabularray inner close
+\toprule
+& OLS & Within & Random \\ \midrule %% TinyTableHeader
+(Intercept)          & \$70.318\$  &               & \$0.713\$   \\
+& (\$1.343\$) &               & (\$2.822\$) \\
+PopGrowth            & \$-1.678\$  & \$0.012\$   & \$-0.039\$  \\
+& (\$0.135\$) & (\$0.088\$) & (\$0.090\$) \\
+UrbanPopulation      & \$0.035\$   & \$0.502\$   & \$0.403\$   \\
+& (\$0.009\$) & (\$0.022\$) & (\$0.020\$) \\
+FertilityRate        & \$-3.785\$  & \$-1.809\$  & \$-2.360\$  \\
+& (\$0.154\$) & (\$0.173\$) & (\$0.172\$) \\
+log(GDPPerCapita)    & \$0.188\$   & \$6.998\$   & \$5.180\$   \\
+& (\$0.114\$) & (\$0.330\$) & (\$0.288\$) \\
+NaturalResourceRents & \$-0.346\$  & \$0.047\$   & \$0.020\$   \\
+& (\$0.017\$) & (\$0.018\$) & (\$0.018\$) \\
+PostColdWar          & \$9.120\$   & \$5.878\$   & \$6.671\$   \\
+& (\$0.418\$) & (\$0.318\$) & (\$0.316\$) \\
+Num.Obs.             & \$6923\$    & \$6923\$    & \$6923\$    \\
+R2                   & \$0.469\$   & \$0.506\$   & \$0.494\$   \\
+R2 Adj.              & \$0.468\$   & \$0.493\$   & \$0.494\$   \\
+AIC                  & \$55934.0\$ & \$47453.4\$ & \$48002.5\$ \\
+BIC                  & \$55988.8\$ & \$47501.3\$ & \$48057.2\$ \\
+RMSE                 & \$13.73\$   & \$7.44\$    & \$7.74\$    \\
+\bottomrule
+\end{tblr}
+\end{table}
